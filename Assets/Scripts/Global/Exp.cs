@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Exp : MonoBehaviour
 {
-    void Update()
+    void Update() 
     {
         this.GetComponent<UnityEngine.UI.Text>().text = Progress.exp.ToString();
     }

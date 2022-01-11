@@ -37,11 +37,12 @@ public class PlayerScript : MonoBehaviour
     // movement
     void Update()
     {
-        //movement.x = Input.GetAxisRaw("Horizontal");
-        //movement.y = Input.GetAxisRaw("Vertical");
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        movement.x = CrossPlatformInputManager.GetAxisRaw("Horizontal");
-        movement.y = CrossPlatformInputManager.GetAxisRaw("Vertical");
+        //Mobile joystick movement
+        //movement.x = CrossPlatformInputManager.GetAxisRaw("Horizontal");
+        //movement.y = CrossPlatformInputManager.GetAxisRaw("Vertical");
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);

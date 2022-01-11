@@ -11,6 +11,6 @@ public class HelloCard : MonoBehaviour
         Progress.hello = true;
         SpellBookUI.Hello();
 
-        FirstSpellEffect.Display();
+     //   FirstSpellEffect.Display();
     }
 }
