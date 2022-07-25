@@ -7,7 +7,9 @@ public class FairyDialogue : MonoBehaviour
 {
     [SerializeField]
     private Image _fairyDialoguePanel;
-   
+    [SerializeField]
+    private GameObject _helloCard;
+
     void Start()
     {
         
@@ -23,5 +25,7 @@ public class FairyDialogue : MonoBehaviour
     {
         _fairyDialoguePanel.GetComponent<CanvasGroup>().alpha = 0;
         _fairyDialoguePanel.GetComponent<CanvasGroup>().interactable = false;
+
+        _helloCard.SetActive(true);
     }
 }
