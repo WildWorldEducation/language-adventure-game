@@ -13,6 +13,7 @@ public class FairyDialogue : MonoBehaviour
     private GameObject _helloCard;
     [SerializeField]
     private GameObject _doorCard;
+    private int _fairyProgress = 0;
 
 
     void Start()
@@ -22,12 +23,16 @@ public class FairyDialogue : MonoBehaviour
 
     private void OnMouseDown()
     {
+        _fairyProgress = 1;
+
         _dialoguePanel.GetComponent<CanvasGroup>().alpha = 1;
         _dialoguePanel.GetComponent<CanvasGroup>().interactable = true;        
     }
 
     public void DisplayDialogue(string dialogue)
     {
+        _fairyProgress = 2;
+
         _dialogueText.text = "Nice to meet you!";
         _dialoguePanel.GetComponent<CanvasGroup>().alpha = 1;
         _dialoguePanel.GetComponent<CanvasGroup>().interactable = true;
@@ -42,7 +47,7 @@ public class FairyDialogue : MonoBehaviour
 
             _helloCard.SetActive(true);
         }
-        else if (!Progress.door)
+        else if (!Progress.door && _fairyProgress == 2)
         {
             Hello_UI.fairyLocked = false;
             Hello_UI.ReturnToInitialPosition();

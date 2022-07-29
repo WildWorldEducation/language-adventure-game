@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManagerScript : MonoBehaviour
 {
 
-    public static AudioClip errorSound, correctSound, spell01Sound, newWordSound, WHAT_IS_YOUR_NAME_Sound, CATWordSound, DOGWordSound, OWLWordSound, BEARWordSound, WOLFWordSound, MONKEYWordSound, DOORWordSound, HELLOWordSound, HIWordSound, GOODBYEWordSound, MAYWordSound, EVAWordSound, SUEWordSound, READWordSound, ALetterSound, BLetterSound, CLetterSound, DLetterSound, ELetterSound, FLetterSound, GLetterSound, HLetterSound, ILetterSound, JLetterSound, KLetterSound, LLetterSound, MLetterSound, NLetterSound, OLetterSound, PLetterSound, QLetterSound, RLetterSound, SLetterSound, TLetterSound, ULetterSound, VLetterSound, WLetterSound, XLetterSound, YLetterSound, ZLetterSound;
+    public static AudioClip errorSound, correctSound, newWordSound, WHAT_IS_YOUR_NAME_Sound, CATWordSound, DOGWordSound, OWLWordSound, BEARWordSound, WOLFWordSound, MONKEYWordSound, DOORWordSound, HELLOWordSound, HIWordSound, GOODBYEWordSound, MAYWordSound, EVAWordSound, SUEWordSound, READWordSound, ALetterSound, BLetterSound, CLetterSound, DLetterSound, ELetterSound, FLetterSound, GLetterSound, HLetterSound, ILetterSound, JLetterSound, KLetterSound, LLetterSound, MLetterSound, NLetterSound, OLetterSound, PLetterSound, QLetterSound, RLetterSound, SLetterSound, TLetterSound, ULetterSound, VLetterSound, WLetterSound, XLetterSound, YLetterSound, ZLetterSound;
     static AudioSource audioSrc;
 
 
@@ -14,7 +14,6 @@ public class SoundManagerScript : MonoBehaviour
     {
         errorSound = Resources.Load<AudioClip>("sounds/pop");
         correctSound = Resources.Load<AudioClip>("sounds/success");
-        spell01Sound = Resources.Load<AudioClip>("sounds/spell01");
         WHAT_IS_YOUR_NAME_Sound = Resources.Load<AudioClip>("sounds/WHAT_IS_YOUR_NAME_Sound");
         CATWordSound = Resources.Load<AudioClip>("sounds/CATSound");
         DOGWordSound = Resources.Load<AudioClip>("sounds/DOGSound");
