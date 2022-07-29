@@ -38,7 +38,7 @@ public class FairyPlayerDialogue : MonoBehaviour
         if (answer)
         {
             PlayerDialogueBox.SetActive(false);
-            FairyDialogue.DisplayDialogueOff();
+        //    FairyDialogue.DisplayDialogueOff();
 
 
             //  SoundManagerScript.playCorrectSound();

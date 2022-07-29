@@ -90,7 +90,7 @@ TextureImporter:
       213: 1619014239384216211
     second: rpg indoor tileset expansion 1 trans_28
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -110,6 +110,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -119,8 +121,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -141,9 +143,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -815,6 +821,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      rpg indoor tileset expansion 1 trans_15: 2033982117395830368
+      rpg indoor tileset expansion 1 trans_6: 775826945955793958
+      rpg indoor tileset expansion 1 trans_4: -4254432947685358003
+      rpg indoor tileset expansion 1 trans_3: 9165744003908800903
+      rpg indoor tileset expansion 1 trans_23: -5453354724550925770
+      rpg indoor tileset expansion 1 trans_16: -5808966110897174499
+      rpg indoor tileset expansion 1 trans_28: 1619014239384216211
+      rpg indoor tileset expansion 1 trans_1: 8579902514275679951
+      rpg indoor tileset expansion 1 trans_5: 4118614139100700854
+      rpg indoor tileset expansion 1 trans_25: 5294106717748483747
+      rpg indoor tileset expansion 1 trans_8: -7644933833700166589
+      rpg indoor tileset expansion 1 trans_19: 2770120487357346439
+      rpg indoor tileset expansion 1 trans_21: 5943527229822178758
+      rpg indoor tileset expansion 1 trans_7: -4363296938255994780
+      rpg indoor tileset expansion 1 trans_26: 9017776319482445325
+      rpg indoor tileset expansion 1 trans_20: 3476223915743506400
+      rpg indoor tileset expansion 1 trans_9: 3621255558460322882
+      rpg indoor tileset expansion 1 trans_0: 3716896095833442827
+      rpg indoor tileset expansion 1 trans_14: -203780492749132360
+      rpg indoor tileset expansion 1 trans_11: 7000982824344284911
+      rpg indoor tileset expansion 1 trans_27: -7264507609002343308
+      rpg indoor tileset expansion 1 trans_13: -8158266180986135586
+      rpg indoor tileset expansion 1 trans_22: 6850888076018721774
+      rpg indoor tileset expansion 1 trans_2: -2775043963897334167
+      rpg indoor tileset expansion 1 trans_10: 1826321470864640192
+      rpg indoor tileset expansion 1 trans_17: 3011394654794131848
+      rpg indoor tileset expansion 1 trans_12: -7506261825381926932
+      rpg indoor tileset expansion 1 trans_24: 3628135652833654800
+      rpg indoor tileset expansion 1 trans_18: -3847132853736365114
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

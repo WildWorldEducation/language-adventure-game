@@ -8,6 +8,9 @@ public class Hello_UI : Block
     public static bool suelocked, fairyLocked;
     public static Transform playerPosition, cardPosition;
 
+    [SerializeField]
+    private FairyDialogue _fairyDialogue;
+
     protected override void OnMouseUp()
     {
         playerPosition = GameObject.Find("Player").transform;
@@ -77,15 +80,15 @@ public class Hello_UI : Block
             {
                 if (!Progress.door)
                 {
-                    FairyDialogue.DisplayDialogue();
+                    _fairyDialogue.DisplayDialogue("Nice to meet you!");
                     fairyLocked = true;
                 }
                 else
                 {
-                    FairyDialogue.DisplayDialogue2();
+               //     FairyDialogue.DisplayDialogue2();
                     transform.position = new Vector2(playerPosition.position.x + 4.382f, playerPosition.position.y + 1.875f);
                 }
-                Progress.exp++;
+           
 
             }
             else if (Mathf.Abs(transform.position.x - targetBlock[1].position.x) <= 0.5f &&

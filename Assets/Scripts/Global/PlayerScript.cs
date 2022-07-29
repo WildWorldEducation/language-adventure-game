@@ -29,9 +29,6 @@ public class PlayerScript : MonoBehaviour
 
         SpellBookUI = GameObject.Find("SpellBookUI");
         SpellBookUI.SetActive(false);
-
-
-
     }
 
     // movement

@@ -7,7 +7,7 @@ public class FairyPlayerDialogueBackButton : MonoBehaviour
     private void OnMouseDown()
     {
         FairyPlayerDialogue.DisplayDialogueOff();
-        FairyDialogue.DisplayDialogue();
+      //  FairyDialogue.DisplayDialogue();
 
         Hello_UI.ReturnToInitialPosition();
     }
