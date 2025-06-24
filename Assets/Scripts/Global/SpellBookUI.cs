@@ -6,6 +6,7 @@ public class SpellBookUI : MonoBehaviour
     public static GameObject door, hello, hi, goodbye, may, eva, sue, read, bear, monkey, cat, dog, blue, red, yellow, green, yes, no;
     void Start()
     {
+        Debug.Log(Progress.bear);
         if (Progress.bear == false)
         {
             bear = GameObject.Find("BEAR_UI");
@@ -85,16 +86,16 @@ public class SpellBookUI : MonoBehaviour
             read = GameObject.Find("READ_UI");
             read.SetActive(false);
         }
-        if (Progress.yes == false)
-        {
-            yes = GameObject.Find("YES_UI");
-            yes.SetActive(false);
-        }
-        if (Progress.no == false)
-        {
-            no = GameObject.Find("NO_UI");
-            no.SetActive(false);
-        }
+        //if (Progress.yes == false)
+        //{
+        //    yes = GameObject.Find("YES_UI");
+        //    yes.SetActive(false);
+        //}
+        //if (Progress.no == false)
+        //{
+        //    no = GameObject.Find("NO_UI");
+        //    no.SetActive(false);
+        //}
     }
 
     public static void Door()

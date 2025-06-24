@@ -94,10 +94,8 @@ public class Hello_UI : Block
             else if (Mathf.Abs(transform.position.x - targetBlock[1].position.x) <= 0.5f &&
                                            Mathf.Abs(transform.position.y - targetBlock[1].position.y) <= 0.5f)
             {
-                transform.position = new Vector2(targetBlock[1].position.x, targetBlock[1].position.y);
-                FairyPlayerDialogue.answer = true;
-                locked = true;
-                Progress.exp++;
+                transform.position = new Vector2(targetBlock[1].position.x, targetBlock[1].position.y);              
+                locked = true;            
             }
             else
             {

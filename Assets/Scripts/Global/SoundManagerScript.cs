@@ -64,10 +64,6 @@ public class SoundManagerScript : MonoBehaviour
     {
         audioSrc.PlayOneShot(correctSound);
     }
-    public static void playSpell01Sound()
-    {
-        audioSrc.PlayOneShot(spell01Sound);
-    }
     public static void playErrorSound()
     {
         audioSrc.PlayOneShot(errorSound);

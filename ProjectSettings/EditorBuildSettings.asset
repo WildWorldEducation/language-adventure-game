@@ -53,18 +53,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Temple/Temple.unity
     guid: e425d4a4d71e91ebdb848706afc8e88b
-  - enabled: 1
-    path: Assets/Scenes/Temple/IrisExercise.unity
-    guid: ec5579d12e78d534bb34516a6415af86
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Academy/Close Up Scenes/FairyExercise.unity
     guid: 28294110fb82a70efabc6ccbd61c905a
   - enabled: 1
     path: Assets/Scenes/Village/Village.unity
     guid: acfe2c4dca8af9e50b5788c6df93eae6
-  - enabled: 1
-    path: Assets/Scenes/Village/MyFamilyExercise.unity
-    guid: 1faa50de3689e7d9fb4583d0a364d71a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Academy/Close Up Scenes/MagazineExercise.unity
     guid: 28508335908d6d40f8388b3ed89d3047
@@ -83,9 +83,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Academy/Close Up Scenes/Greeting01Exercise.unity
     guid: 442fe2cfb0bc70589ac13181cffdf8cb
-  - enabled: 1
-    path: Assets/Scenes/Forest/Zebra.unity
-    guid: 141f4cff44e238334bde65df28d5303b
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Academy/Close Up Scenes/SecretaryExercise.unity
     guid: 2f51149da3da69134abe3c468e3b07b8
@@ -107,19 +107,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Academy/AcademyDictionary.unity
     guid: 4063cf9a33f6018c9b54c567641890f3
-  - enabled: 1
-    path: Assets/Scenes/Forest/Forest-platformer.unity
-    guid: 104b0d14871d44f4881963af94f49350
   - enabled: 0
-    path: Assets/Scenes/SimpleApp/Start Menu.unity
-    guid: 67562aff118c5a9bdb46770d911c8b37
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/SimpleApp/Scene001.unity
-    guid: efec13f543cc7d22da0c18afcae0a35f
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/SimpleApp/Menu.unity
-    guid: e63074b96b02bd399b999a50d819211a
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/SimpleApp/Scene002.unity
-    guid: efd7551a6c51332ee80b19c5f77baec6
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
