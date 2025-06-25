@@ -14,6 +14,6 @@ public class HelloCard : MonoBehaviour
         Progress.hello = true;
        // SpellBookUI.Hello();
 
-        _spellBook.HelloSpell.GetComponent<CanvasGroup>().alpha = 1;
+        //_spellBook.HelloSpell.GetComponent<CanvasGroup>().alpha = 1;
     }
 }
