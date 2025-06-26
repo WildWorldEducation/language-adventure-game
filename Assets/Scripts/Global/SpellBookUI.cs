@@ -35,7 +35,7 @@ public class SpellBookUI : MonoBehaviour
         if (Progress.hello == false)
         {
             hello = GameObject.Find("HELLO_UI");
-            hello.SetActive(false);
+          //  hello.SetActive(false);
         }
         if (Progress.hi == false)
         {
