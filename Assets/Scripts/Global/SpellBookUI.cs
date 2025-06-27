@@ -6,7 +6,8 @@ public class SpellBookUI : MonoBehaviour
     public static GameObject door, hello, hi, goodbye, may, eva, sue, read, bear, monkey, cat, dog, blue, red, yellow, green, yes, no;
     void Start()
     {
-        Debug.Log(Progress.bear);
+        DontDestroyOnLoad(gameObject.transform);
+
         if (Progress.bear == false)
         {
             bear = GameObject.Find("BEAR_UI");

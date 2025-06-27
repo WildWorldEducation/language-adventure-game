@@ -10,6 +10,10 @@ public class PlayerScript : MonoBehaviour
     public Animator animator;
     Vector2 movement;
     public static GameObject SpellBookUI;
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Start()
     {
