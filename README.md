@@ -12,4 +12,3 @@ A minigame teaching vocab.
 ## Built With
 
 * Unity
-* Vue
