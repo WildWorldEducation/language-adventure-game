@@ -6,24 +6,33 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 5252515653575d5a0f57087744270911124f4e7c2d2c7f3479284d65e6b36d3b
+      value: 5605510307025e5e5408587b43225e11104f1979787120367f7b4536b2b3616a
       flags: 0
     RecentlyUsedSceneGuid-1:
-      value: 5109065f5104580b0b0c547011740f1510161a297a2b2532297f4c30bbb06139
+      value: 570102550653505a5e5d0a74407207134f154d7e2f7d70677b7d4c6bbbb0326b
       flags: 0
     RecentlyUsedSceneGuid-2:
-      value: 5705060000070a5d0f5e0e2147730a484f161b7b7f797e612e2f1b37e4b8373a
+      value: 5109065f5104580b0b0c547011740f1510161a297a2b2532297f4c30bbb06139
       flags: 0
     RecentlyUsedSceneGuid-3:
-      value: 0701505755560d0d58570973487a0e40464e407c7d2b22647b7c4c36e4b56c6b
+      value: 5705060000070a5d0f5e0e2147730a484f161b7b7f797e612e2f1b37e4b8373a
       flags: 0
     RecentlyUsedSceneGuid-4:
-      value: 510901565d065a0e545e542646270b40104f4b72742a753529714437b1b0606f
+      value: 0701505755560d0d58570973487a0e40464e407c7d2b22647b7c4c36e4b56c6b
       flags: 0
     RecentlyUsedSceneGuid-5:
-      value: 515701575401505f0c5d0823467a0e4342161a2f7f2b7266752c4e31b2b73660
+      value: 510901565d065a0e545e542646270b40104f4b72742a753529714437b1b0606f
       flags: 0
     RecentlyUsedSceneGuid-6:
+      value: 515701575401505f0c5d0823467a0e4342161a2f7f2b7266752c4e31b2b73660
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 02060c0752045e585f5d597a407608144015197a757c766779714f66b7e1606d
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5252515653575d5a0f57087744270911124f4e7c2d2c7f3479284d65e6b36d3b
+      flags: 0
+    RecentlyUsedSceneGuid-9:
       value: 54070c0001500a095a5a0e73407a0e4912151b7a2a7120647c2b4e30e7b9373e
       flags: 0
     RecentlyUsedScenePath-0:
@@ -73,4 +82,6 @@ EditorUserSettings:
   m_VCHierarchyOverlayIcons: 1
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 0
+  m_VCScanLocalPackagesOnConnect: 1
   m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1
