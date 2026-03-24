@@ -5,6 +5,7 @@ public class PlayerManager : MonoBehaviour
     public static PlayerManager Instance;
 
     public PlayerData playerData = new PlayerData();
+    public CardSpawner cardSpawner;
 
     private void Awake()
     {
@@ -16,6 +17,11 @@ public class PlayerManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+
+        if (cardSpawner != null)
+        {
+            cardSpawner.ShowCards();
         }
     }
 }
