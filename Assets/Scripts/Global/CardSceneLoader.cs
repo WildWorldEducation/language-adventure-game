@@ -1,12 +1,14 @@
 using UnityEngine;
 
-public class CardSpawner : MonoBehaviour
+public class CardSceneLoader : MonoBehaviour
 {
-    public Transform spawnPoint;
-
-    public Transform player;
     public float spacing = 120f; // pixels
     public float margin = 60f;
+
+    void Start()
+    {
+        ShowCards();
+    }
 
     public void ShowCards()
     {

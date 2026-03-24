@@ -15,11 +15,9 @@ public class OutsideAcademySceneManager : MonoBehaviour
     private GameObject _hiCard;
     void Start()
     {
-        _helloCard.SetActive(false);
-        _doorCard.SetActive(false);
-        _hiCard.SetActive(false);
+        // _helloCard.SetActive(false);
+        // _doorCard.SetActive(false);
+        // _hiCard.SetActive(false);
     }
-
-
 
 }
